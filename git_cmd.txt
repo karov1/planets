@@ -23,3 +23,6 @@ git diff
 # To see where in the pad you are:
 git diff --staged
 
+# To commit a spesific file with a spesific comment:
+git commit -m "Added cmd" -i git_cmd.txt
+
