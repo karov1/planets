@@ -38,3 +38,7 @@ git remote add origin https://github.com/karov1/planets.git
 
 # To check if it worked:
 git remote -v
+
+# How to push things from my intermediate git (master) to the internett (original):
+git push origin master
+## When doing this I get asked for username and password, this is for the github username and password.
