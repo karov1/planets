@@ -3,12 +3,20 @@ git init
  
 # Get the status of git:
 git status
+
+# The mars.text file is created using nano, the text editor:
 nano mars.txt
-  713  git status
-  714  git add mars.txt 
-  715  git status
-  716  history |tail
-  717  history |tail 11 >git_cmd.txt
-  718  history |tail -n 11 >git_cmd.txt
-  719  less git_cmd.txt 
-  720  history |tail -n 16 >git_cmd.txt
+
+# Get git to understand that it should start the version control for the file:
+git add mars.txt 
+git status
+
+#To add commands and to get git to start track changes made:
+git commit -m "Starting to think about mars"
+
+# To see the changes made:
+git logg
+
+# To see changes made:
+git diff
+
