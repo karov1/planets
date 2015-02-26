@@ -42,3 +42,6 @@ git remote -v
 # How to push things from my intermediate git (master) to the internett (original):
 git push origin master
 ## When doing this I get asked for username and password, this is for the github username and password.
+
+# How to get something from another person, they will send you the link and you use this cmd ind a new temporary directory you have created:
+git clone https://github.com/cjandrew/planets.git
