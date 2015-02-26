@@ -26,3 +26,6 @@ git diff --staged
 # To commit a spesific file with a spesific comment:
 git commit -m "Added cmd" -i git_cmd.txt
 
+# To see changes made in earlier files HEAD~1 is one further back HEAD~2 is two further back:
+git diff HEAD~1 git_cmd.txt
+
