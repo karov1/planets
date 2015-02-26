@@ -29,3 +29,7 @@ git commit -m "Added cmd" -i git_cmd.txt
 # To see changes made in earlier files HEAD~1 is one further back HEAD~2 is two further back:
 git diff HEAD~1 git_cmd.txt
 
+# Go back to the previous version and make that your file in the folder (can be checked using the cat cmd or less), if you want to go back further 
+# use HEAD~1... etc:
+git checkout HEAD mars.txt
+
