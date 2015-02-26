@@ -15,8 +15,11 @@ git status
 git commit -m "Starting to think about mars"
 
 # To see the changes made:
-git logg
+git log
 
 # To see changes made:
 git diff
+
+# To see where in the pad you are:
+git diff --staged
 
