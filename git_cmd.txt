@@ -1,0 +1,14 @@
+# Initialise git, to start it run:
+git init
+ 
+# Get the status of git:
+git status
+nano mars.txt
+  713  git status
+  714  git add mars.txt 
+  715  git status
+  716  history |tail
+  717  history |tail 11 >git_cmd.txt
+  718  history |tail -n 11 >git_cmd.txt
+  719  less git_cmd.txt 
+  720  history |tail -n 16 >git_cmd.txt
