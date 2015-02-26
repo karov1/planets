@@ -45,3 +45,6 @@ git push origin master
 
 # How to get something from another person, they will send you the link and you use this cmd ind a new temporary directory you have created:
 git clone https://github.com/cjandrew/planets.git
+
+# How to pull things down from github:
+git pull origin master
