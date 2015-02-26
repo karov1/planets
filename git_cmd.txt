@@ -33,3 +33,8 @@ git diff HEAD~1 git_cmd.txt
 # use HEAD~1... etc:
 git checkout HEAD mars.txt
 
+# Use this cmd, using url from github, to connect my folder under version control to internett, so all my files are there as well:
+git remote add origin https://github.com/karov1/planets.git
+
+# To check if it worked:
+git remote -v
